@@ -1,0 +1,105 @@
+# Current State
+
+Last Updated: June 2026
+
+## Project Status
+
+Core network infrastructure is operational.
+
+The environment currently provides internet access through OPNsense while additional segmentation, VPN services, and monitoring capabilities are under development.
+
+---
+
+## Firewall
+
+### Status
+
+Operational
+
+### Completed
+
+- OPNsense installed
+- WAN operational
+- LAN operational
+- Internet access operational
+- Unbound DNS enabled
+
+### Pending
+
+- VLAN interfaces
+- WireGuard
+- Mullvad VPN routing
+- Advanced firewall policy implementation
+
+---
+
+## Switching
+
+### Status
+
+Operational
+
+### Completed
+
+- Firmware updated
+- Management interface accessible
+
+### Pending
+
+- VLAN implementation
+- Port assignment documentation
+
+---
+
+## Wireless
+
+### Status
+
+Operational
+
+### Completed
+
+- EAP610 deployed
+- Trusted SSID operational
+- Guest SSID operational
+
+### Pending
+
+- VLAN-aware SSID mapping
+
+---
+
+## Virtualization
+
+### Status
+
+Operational
+
+### Completed
+
+- Proxmox installed
+
+### Pending
+
+- Management network design
+- Pi-hole
+- Grafana
+- Home Assistant
+
+---
+
+## Physical Infrastructure
+
+### Completed
+
+- Rack assembled
+- Fan module installed
+- Patch panel installed
+- Cable labeling completed
+- UPS deployed
+
+---
+
+## Next Milestone
+
+Implement network segmentation through VLAN deployment and prepare infrastructure for VPN and monitoring services.
