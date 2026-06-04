@@ -77,13 +77,16 @@ Operational
 
 ### Completed
 
-- Proxmox installed
+- Proxmox VE installed
+- Monitoring LXC deployed
+- Prometheus deployed
+- Grafana deployed
+- Node Exporter deployed
 
 ### Pending
 
 - Management network design
 - Pi-hole
-- Grafana
 - Home Assistant
 
 ---
@@ -102,4 +105,56 @@ Operational
 
 ## Next Milestone
 
-Implement network segmentation through VLAN deployment and prepare infrastructure for VPN and monitoring services.
+Implement network segmentation through VLAN deployment and prepare infrastructure for:
+
+- WireGuard remote access
+- Mullvad VPN routing
+- Pi-hole deployment
+- Inter-VLAN firewall policy implementation
+
+## Monitoring
+
+### Status
+
+Operational
+
+### Completed
+
+- Prometheus installed
+- Node Exporter installed
+- Grafana installed
+- Dashboard imported and operational
+- Prometheus targets verified healthy
+
+### Monitoring Services
+
+| Service | Status |
+|----------|----------|
+| Prometheus | Operational |
+| Node Exporter | Operational |
+| Grafana | Operational |
+
+### Monitoring LXC
+
+Address:
+
+192.168.10.50
+
+### URLs
+
+Prometheus:
+http://192.168.10.50:9090
+
+Grafana:
+http://192.168.10.50:3000
+
+Node Exporter:
+http://192.168.10.50:9100/metrics
+
+### Pending
+
+- Proxmox host monitoring
+- OPNsense monitoring
+- VPN monitoring
+- Alerting
+- Rack dashboard display
