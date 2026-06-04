@@ -66,3 +66,24 @@ Last Updated: June 2026
 | Rack Fan Module | Operational |
 | Rack PDU | Operational |
 | CyberPower UPS | Operational |
+### Current Services
+
+#### Monitoring LXC
+
+Role:
+
+Centralized monitoring platform
+
+Address:
+
+192.168.10.50
+
+Services:
+
+- Prometheus
+- Grafana
+- Node Exporter
+
+Status:
+
+Operational
