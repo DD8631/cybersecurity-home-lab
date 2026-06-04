@@ -23,13 +23,13 @@ Example:
 
 | VLAN | Network |
 |--------|----------|
-| 10 | 192.168.10.0/24 |
-| 20 | 192.168.20.0/24 |
-| 30 | 192.168.30.0/24 |
-| 40 | 192.168.40.0/24 |
-| 50 | 192.168.50.0/24 |
-| 60 | 192.168.60.0/24 |
-| 70 | 192.168.70.0/24 |
+| 10 | <internal-address-redacted> |
+| 20 | <internal-address-redacted> |
+| 30 | <internal-address-redacted>|
+| 40 | <internal-address-redacted> |
+| 50 | <internal-address-redacted> |
+| 60 | <internal-address-redacted> |
+| 70 | <internal-address-redacted> |
 
 ---
 
@@ -37,13 +37,13 @@ Example:
 
 | VLAN | Name | Network | Gateway |
 |--------|--------|--------|--------|
-| 10 | Management | 192.168.10.0/24 | 192.168.10.1 |
-| 20 | Trusted-Wired | 192.168.20.0/24 | 192.168.20.1 |
-| 30 | Trusted-Wireless | 192.168.30.0/24 | 192.168.30.1 |
-| 40 | Services | 192.168.40.0/24 | 192.168.40.1 |
-| 50 | Mullvad | 192.168.50.0/24 | 192.168.50.1 |
-| 60 | IoT | 192.168.60.0/24 | 192.168.60.1 |
-| 70 | Guest | 192.168.70.0/24 | 192.168.70.1 |
+| 10 | Management | <internal-address-redacted> | <internal-address-redacted> |
+| 20 | Trusted-Wired | <internal-address-redacted>| <internal-address-redacted> |
+| 30 | Trusted-Wireless | <internal-address-redacted> | <internal-address-redacted> |
+| 40 | Services | <internal-address-redacted> | <internal-address-redacted> |
+| 50 | Mullvad | <internal-address-redacted> | <internal-address-redacted> |
+| 60 | IoT | <internal-address-redacted> | <internal-address-redacted> |
+| 70 | Guest | <internal-address-redacted> | <internal-address-redacted> |
 
 ---
 
@@ -53,7 +53,7 @@ Example:
 
 Reserved:
 
-192.168.X.2 – 192.168.X.19
+<internal-address-redacted> – <internal-address-redacted>
 
 Purpose:
 
@@ -68,7 +68,7 @@ Purpose:
 
 Reserved:
 
-192.168.X.20 – 192.168.X.49
+<internal-address-redacted> – <internal-address-redacted>
 
 Purpose:
 
@@ -83,7 +83,7 @@ Purpose:
 
 Reserved:
 
-192.168.X.50 – 192.168.X.199
+<internal-address-redacted> – <internal-address-redacted>
 
 Purpose:
 
@@ -97,7 +97,7 @@ Purpose:
 
 Reserved:
 
-192.168.X.200 – 192.168.X.254
+<internal-address-redacted> – <internal-address-redacted>
 
 Purpose:
 
@@ -111,10 +111,10 @@ Purpose:
 
 | Device | Address |
 |----------|----------|
-| OPNsense | 192.168.10.1 |
-| MS308E | 192.168.10.2 |
-| EAP610 | 192.168.10.3 |
-| Proxmox | 192.168.10.4 |
+| OPNsense | <internal-address-redacted> |
+| MS308E | <internal-address-redacted> |
+| EAP610 | <internal-address-redacted> |
+| Proxmox | <internal-address-redacted> |
 
 ---
 
@@ -124,9 +124,9 @@ Purpose:
 
 | Service | Address |
 |----------|----------|
-| Pi-hole | 192.168.40.10 |
-| Grafana | 192.168.40.20 |
-| Home Assistant | 192.168.40.30 |
+| Pi-hole | <internal-address-redacted> |
+| Grafana | <internal-address-redacted> |
+| Home Assistant | <internal-address-redacted> |
 
 ---
 
