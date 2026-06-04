@@ -54,7 +54,7 @@ Operational
 
 ## URL
 
-http://192.168.10.50:9090
+<internal-address-redacted>
 
 ## Validation
 
@@ -81,7 +81,7 @@ Operational
 
 ## URL
 
-http://192.168.10.50:9100/metrics
+<internal-address-redacted>
 
 ## Validation
 
@@ -103,7 +103,7 @@ Operational
 
 ## URL
 
-http://192.168.10.50:3000
+<internal-address-redacted>
 
 ## Data Source
 
