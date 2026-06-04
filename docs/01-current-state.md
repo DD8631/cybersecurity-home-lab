@@ -138,18 +138,18 @@ Operational
 
 Address:
 
-192.168.10.50
+<internal-address-redacted>
 
 ### URLs
 
 Prometheus:
-http://192.168.10.50:9090
+<internal-address-redacted>
 
 Grafana:
-http://192.168.10.50:3000
+<internal-address-redacted>
 
 Node Exporter:
-http://192.168.10.50:9100/metrics
+<internal-address-redacted>
 
 ### Pending
 
